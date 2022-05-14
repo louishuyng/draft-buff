@@ -1,3 +1,5 @@
+[![asciicast](https://asciinema.org/a/ze3pHhThileq7uZE5KLyeWCc4.svg)](https://asciinema.org/a/ze3pHhThileq7uZE5KLyeWCc4)
+
 ## Installation
 
 ```lua
