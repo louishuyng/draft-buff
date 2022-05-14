@@ -1,7 +1,9 @@
 ## Draft Buff
-It be created to help vim user easiliy create new buffer with choosen language for testing or use it as presentation
 
-## Support Languages
+It be created to help vim user easily create new buffer with chosen language for testing or use it as presentation
+
+## Supported Languages
+
 - Ruby
 - Typescript
 - Javascript
@@ -11,10 +13,12 @@ It be created to help vim user easiliy create new buffer with choosen language f
 - Rust
 - C
 - C++
+- Swift
 - Haskell
 - Scala
 
 ## Demo
+
 [![asciicast](https://asciinema.org/a/ze3pHhThileq7uZE5KLyeWCc4.svg)](https://asciinema.org/a/ze3pHhThileq7uZE5KLyeWCc4)
 
 ## Installation

@@ -6,18 +6,24 @@ local function find_extension(name)
     ["Ruby"] = ".rb",
     ["Typescript"]  = ".ts",
     ["Javascript"] = ".js",
+    ["Java"] = ".java",
     ["Golang"] = ".go",
-    ["Java"] = ".java"
+    ["Rust"] = ".rs",
+    ["Swift"] = ".swift",
+    ["Python"] = ".py",
+    ["C"] = ".cpp",
+    ["Haskell"] = ".hs",
+    ["Scala"] = ".scala",
   }
 
   return mappings[name]
 end
 
 local menu = Menu({
-  position = "20%",
+  position = "30%",
   size = {
     width = 30,
-    height = 5,
+    height = 11,
   },
   relative = "editor",
   border = {
@@ -36,8 +42,14 @@ local menu = Menu({
     Menu.item("Ruby"),
     Menu.item("Typescript"),
     Menu.item("Javascript"),
-    Menu.item("Golang"),
     Menu.item("Java"),
+    Menu.item("Golang"),
+    Menu.item("Rust"),
+    Menu.item("Swift"),
+    Menu.item("Python"),
+    Menu.item("C"),
+    Menu.item("Haskell"),
+    Menu.item("Scala"),
   },
   max_width = 30,
   keymap = {
