@@ -23,7 +23,7 @@ local menu = Menu({
   border = {
     style = "single",
     text = {
-      top = "Choose Something",
+      top = "Languages",
       top_align = "center",
     },
   },
