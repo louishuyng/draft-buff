@@ -50,7 +50,8 @@ local menu = Menu({
     print("CLOSED")
   end,
   on_submit = function(item)
-    local path = "/tmp/draft-buffer" .. find_extension(item["text"])
+    local time = os.time()
+    local path = "/tmp/draft-buffer-" .. time .. find_extension(item["text"])
 
     vim.cmd("e" .. path)
   end,
