@@ -16,6 +16,7 @@ It be created to help vim user easily create new buffer with chosen language for
 - Swift
 - Haskell
 - Scala
+- Http
 
 ## Demo
 
@@ -35,5 +36,10 @@ use {
 ## Usage
 
 ```lua
-:lua require"draft-buff'.select_lang()
+:lua require"draft-buff".select_lang()
+```
+
+## Override the default List
+```lua
+vim.g.draft_buff_languages = {'Http', 'Ruby', 'Javascript', 'Golang'}
 ```

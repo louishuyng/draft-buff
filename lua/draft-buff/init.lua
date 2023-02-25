@@ -3,7 +3,6 @@ local event = require("nui.utils.autocmd").event
 
 local function find_extension(name)
     local mappings = {
-        ["Http"] = ".http",
         ["Ruby"] = ".rb",
         ["Typescript"] = ".ts",
         ["Javascript"] = ".js",
@@ -14,7 +13,8 @@ local function find_extension(name)
         ["Python"] = ".py",
         ["C"] = ".cpp",
         ["Haskell"] = ".hs",
-        ["Scala"] = ".scala"
+        ["Scala"] = ".scala",
+        ["Http"] = ".http"
     }
     return mappings[name]
 end
